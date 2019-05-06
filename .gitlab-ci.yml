@@ -1,0 +1,31 @@
+build_only:
+    tags:
+        - his5nodejs
+    except:
+        - /^v\d+\.\d+\.\d+\.[prod|test|dev]+$/
+    script:
+        - echo "do something?"
+
+deploy_prod:
+    tags:
+        - his5nodejs
+    only:
+        - /^v\d+\.\d+\.\d+\.prod$/
+    script:
+        - bash deploy.sh prod
+
+deploy_dev:
+    tags:
+        - his5nodejs
+    only:
+        - /^v\d+\.\d+\.\d+\.dev$/
+    script:
+        - bash deploy.sh dev
+
+deploy_test:
+    tags:
+        - his5nodejs
+    only:
+        - /^v\d+\.\d+\.\d+\.test$/
+    script:
+        - bash deploy.sh test
