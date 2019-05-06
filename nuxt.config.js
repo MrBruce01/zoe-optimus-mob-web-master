@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the pageaxios
   */
   head: {
-    title: '智业移动护理',
+    title: '练习项目',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
