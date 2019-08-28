@@ -19,7 +19,7 @@
     "open": "nuxt start"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "cross-env": "^5.0.1",
     "express": "^4.15.3",
     "lodash": "^4.17.4",
