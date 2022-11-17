@@ -25,7 +25,7 @@
     "lodash": "^4.17.4",
     "mint-ui": "^2.2.13",
     "node-sass": "^4.7.2",
-    "nuxt": "^1.0.0-rc3",
+    "nuxt": "^3.0.0",
     "qs": "^6.5.1",
     "react-native-keyboard-aware-scroll-view": "^0.8.0",
     "sass-loader": "^6.0.6",
